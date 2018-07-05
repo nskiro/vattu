@@ -20,10 +20,10 @@
   define('DIR_FS_CACHE', DIR_FS_CATALOG . 'cache/');
   define('DIR_FS_CACHE_ADMIN', DIR_FS_CACHE . DIR_FS_ADMIN); 
 
-  define('DB_SERVER', '');
-  define('DB_SERVER_USERNAME', '');
-  define('DB_SERVER_PASSWORD', '');
-  define('DB_DATABASE', 'TomatoCart');
+  define('DB_SERVER', 'localhost');
+  define('DB_SERVER_USERNAME', 'root');
+  define('DB_SERVER_PASSWORD', '01662099098');
+  define('DB_DATABASE', 'vattu');
   define('DB_DATABASE_CLASS', 'mysql');
   define('DB_TABLE_PREFIX', 'toc_');
   define('USE_PCONNECT', 'false');
