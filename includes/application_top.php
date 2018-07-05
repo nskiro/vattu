@@ -21,6 +21,10 @@
     error_reporting(E_ALL & ~E_NOTICE);
   }
 
+  ini_set(‘display_errors’, 1);
+  ini_set(‘log_errors’, 1);
+  error_reporting(E_ALL);
+
 // set the local configuration parameters - mainly for developers
   if ( file_exists('includes/local/configure.php') ) {
     include('includes/local/configure.php');
