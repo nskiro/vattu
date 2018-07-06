@@ -18,8 +18,8 @@
     error_reporting(E_ALL & ~E_NOTICE);
   }
 
-  ini_set(‘display_errors’, 1);
-  ini_set(‘log_errors’, 1);
+  ini_set('display_errors', 1);
+  ini_set('log_errors', 1);
   error_reporting(E_ALL);
 
   define('DEFAULT_LANGUAGE', 'en_US');
