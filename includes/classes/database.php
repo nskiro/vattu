@@ -54,7 +54,8 @@
     }
 
     function &query($query) {
-      $osC_Database_Result =& new osC_Database_Result($this);
+      //$osC_Database_Result =& new osC_Database_Result($this);
+      $osC_Database_Result = new osC_Database_Result($this);
       $osC_Database_Result->setQuery($query);
 
       return $osC_Database_Result;
