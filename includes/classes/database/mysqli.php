@@ -16,7 +16,7 @@
   class osC_Database_mysqli extends osC_Database_mysql {
     var $use_transactions = true;
 
-    function osC_Database_mysqli($server, $username, $password) {
+    function __construct($server, $username, $password) {
       $this->server = $server;
       $this->username = $username;
       $this->password = $password;

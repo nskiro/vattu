@@ -18,7 +18,7 @@
         $sql_parse_string = 'mysql_escape_string',
         $sql_parse_string_with_connection_handler = false;
 
-    function osC_Database_mysql($server, $username, $password) {
+    function __construct($server, $username, $password) {
       $this->server = $server;
       $this->username = $username;
       $this->password = $password;

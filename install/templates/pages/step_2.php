@@ -107,7 +107,7 @@
 	        </tr>
 	        <tr>
 	          <td><?php echo $osC_Language->get('box_server_mysql'); ?></td>
-	          <td align="right"><img src="images/<?php echo (extension_loaded('pdo_mysql') ? 'ok.png' : 'error.png'); ?>" border="0" width="16" height="16"></td>
+	          <td align="right"><img src="images/<?php echo (extension_loaded('mysqli') ? 'ok.png' : 'error.png'); ?>" border="0" width="16" height="16"></td>
 	        </tr>
 	        <tr>
 	          <td><?php echo $osC_Language->get('box_server_gd'); ?></td>
