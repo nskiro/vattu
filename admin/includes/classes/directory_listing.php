@@ -27,7 +27,7 @@
 
 /* Class constructor */
 
-    function osC_DirectoryListing($directory = '', $stats = false) {
+    function __construct($directory = '', $stats = false) {
       $this->setDirectory(realpath($directory));
       $this->setStats($stats);
     }

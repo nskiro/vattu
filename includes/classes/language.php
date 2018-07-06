@@ -20,7 +20,7 @@
 
 /* Class constructor */
 
-    function osC_Language() {
+    function __construct() {
       global $osC_Database;
 
       $Qlanguages = $osC_Database->query('select * from :table_languages order by sort_order, name');

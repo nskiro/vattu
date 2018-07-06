@@ -20,7 +20,7 @@
 
 /* Class constructor */
 
-    function osC_LanguageInstall() {
+    function __construct() {
       $osC_DirectoryListing = new osC_DirectoryListing('../includes/languages');
       $osC_DirectoryListing->setIncludeDirectories(false);
       $osC_DirectoryListing->setCheckExtension('xml');
