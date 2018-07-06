@@ -17,7 +17,7 @@
     var $_xml,
         $_encoding;
 
-    function osC_XML($xml, $encoding = '') {
+    function __construct($xml, $encoding = '') {
       $this->_xml = $xml;
 
       if (!empty($encoding)) {

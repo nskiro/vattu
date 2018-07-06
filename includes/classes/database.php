@@ -306,7 +306,7 @@
         $logging_fields = array(),
         $logging_changed = array();
 
-    function osC_Database_Result(&$db_class) {
+    function __construct(&$db_class) {
       $this->db_class =& $db_class;
     }
 
